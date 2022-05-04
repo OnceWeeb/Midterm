@@ -1,0 +1,51 @@
+.nav-home{
+    float: left;
+}
+nav{background-color: blue;
+    height: 4rem;
+    color: whitesmoke;
+}
+.nav-links{
+    float: right;
+}
+.nav-link{
+    color: whitesmoke;
+    display: inline-block;
+}
+.nav-link a{
+    color: whitesmoke;
+}
+.avatar{display: inline-block;
+}
+main{clear: both;
+}
+.featured{display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    width: 100%;
+}
+.featured-background{
+    display: flex;
+    align-items:center;
+    background: turquoise;
+    height: 15rem;
+    border: solid black 2px;
+    width: 30%;
+}
+.featured-text{
+    background: whitesmoke;
+    border: solid black 2px;
+    width: 100%;
+    text-align:  center;
+}
+.article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.article-background{
+    display: flex;
+    background: skyblue;
+    height: 10rems;
+    border: solid black 2px;
+    justify-content: center;
+}
